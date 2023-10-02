@@ -2,7 +2,7 @@
 // 7 categories 
 // string,number,Boolean,null,undefined,symbol,BigInt
 
-// reference tyoe(non primitive)
+// reference type(non primitive)
 // array,objects,functions
 
 const score = 100
@@ -30,3 +30,8 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 console.log(typeof heroes);
+
+// two types of memory
+//stack (primitive)-copy  milega ,(non primitve) Heap- refrenece milega
+
+let myytname = "pokechatter"
