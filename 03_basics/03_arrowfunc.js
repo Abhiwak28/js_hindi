@@ -32,4 +32,14 @@ const chai = () => {
 
 // chai()
 
-const addtwo()=>
+// const addtwo = (NUM1,NUM2) => {
+//     return NUM1 + NUM2
+
+// }
+// const addtwo = (NUM1,NUM2) => NUM1 + NUM2
+// const addtwo = (NUM1,NUM2) => (NUM1 + NUM2)
+const addtwo = (NUM1,NUM2) =>({
+    username:"abhiwak"
+})
+
+console.log(addtwo(3,4))
